@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dataBox {
+  height: 570px;
+  width: 570px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dataBox img {
+  animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* boxes */
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  background-color: #f0f4f3;
+}
+.box {
+  height: 300px;
+  width: 280px;
+  background-color: whitesmoke;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: all 2 ease-in-out;
+  border-radius: 10px;
+}
+.box:hover{
+  background-color: #ee9818;
+  color: white;
+}
+.box:hover{
+  .Icons{
+    color: white;
+  }
+}
+/* about */
+
+.about_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+}
+.the_about_boxes {
+  height: 650px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the_about_boxes h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(254, 161, 22);
+  font-size: 39px;
+}
+.the_about_boxes h1 {
+  font-size: 40px;
+}
+.design_box {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 1cap;
+  grid-column-gap: 1cap;
+}
+.D_box:nth-child(1) {
+  height: 280px;
+  width: 280px;
+}
+.D_box:nth-child(1) img {
+  height: 280px;
+  width: 280px;
+}
+.D_box:nth-child(4) img {
+  height: 280px;
+  width: 280px;
+}
+.D_box:nth-child(4) {
+  height: 280px;
+  width: 280px;
+}
+.D_box:nth-child(2) {
+  height: 240px;
+  width: 240px;
+  margin-block-start: 39px;
+}
+.D_box:nth-child(2) img {
+  height: 240px;
+  width: 240px;
+}
+.D_box:nth-child(3) {
+  height: 240px;
+  width: 240px;
+  margin-inline-start: 39px;
+}
+.D_box:nth-child(3) img {
+  height: 240px;
+  width: 240px;
+}
+.D_box {
+  height: 250px;
+  width: 250px;
+}
+.num {
+  display: flex;
+}
+.num_one {
+  padding-left: 20px;
+  border-left: 5px solid rgb(254, 161, 22);
+}
+.num_one h1 span {
+  font-size: 35px;
+}
+.options {
+  height: 980px;
+  width: 100%;
+}
+/* food options  */
+.Heading_div {
+  text-align: center;
+}
+.Heading_div h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(254, 161, 22);
+  font-size: 30px;
+}
+.BigMenu {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuBox {
+  height: 100px;
+  width: 180px;
+}
+.MenuIcons{
+  font-size: 2.5rem;
+  color: #f0a026;
+}
+.menuBox>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* menuitems  */
+.DishMenu {
+  height: 700px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.girdSection {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+.item {
+  height: 130px;
+  width: 650px;
+}
+.item_menu {
+  display: flex;
+}
+.item img {
+  height: 98px;
+  width: 98px;
+}
+.flexItem {
+  display: flex;
+  justify-content: space-between;
+  width: 525px;
+  height: 55px;
+  align-items: center;
+}
+.item_menu > div {
+  margin-inline-start: 12px;
+}
+.item_menu p{
+  text-align: start;
+}
+.flexItem h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(254, 161, 22);
+}
+.bookTable {
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DataBox {
+  height: 450px;
+  width: 700px;
+}
+.VID{
+  height: 400px;
+  width: 700px;
+}
+.box_data{
+  padding: 45px;
+}
+.Icons{
+  font-size: 4rem;
+  color:#f0a026 ;
+}
+/* chef sections  */
+.chefSection {
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+}
+.heading_chef {
+  text-align: center;
+}
+.heading_chef h1 {
+  margin-top: 25px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(254, 161, 22);
+}
+.chef_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 600px;
+}
+.chefData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+.icons_{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons_ i{
+
+  font-size: 2rem;
+}
+
+.Pic img {
+  height: 200px;
+  width: 200px;
+  transition: all 1s ease-in-out;
+}
+.chefData:hover{
+  .Pic img{
+    transform: scale(1.1);
+  }
+}
+.icons_ img{
+  height: 50px;
+  width: 50px;
+  margin: 12px
+}
+
+
+/* form --------------------------------------------------------------------------------------------------------- */
+
+
+/* Style for form container */
+/* Style for form container */
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1a1b28;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Title Styling */
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Grid layout for form */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label Styling */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+/* Input and Textarea Styling */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button Styling */
+.form-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: #fff;
+  background-color: #f0a026;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-button:hover {
+  background-color: #ca7b04;;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* slider css */
+
+.slider-container {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider-wrapper {
+  display: flex;
+  overflow: hidden;
+
+  width: 100%;
+}
+
+.slide {
+  flex: 1 0 33.3333%; /* Each slide takes up 1/3 of the visible space */
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin: 0 5px;
+  height: 230px;
+  width: 300px;
+}
+.slide_heading{
+  padding: 23px;
+}
+.prev-btn, .next-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.prev-btn:disabled, .next-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.prev-btn:hover:not(:disabled), .next-btn:hover:not(:disabled) {
+  opacity: 1;
+}
+
+.prev-btn {
+  margin-right: 10px;
+}
+
+.next-btn {
+  margin-left: 10px;
+}
+/*  Margin  */
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  .container{
+    flex-direction: column-reverse;
+  }
+  .dataBox{
+    text-align: center;
+    width: 300px;
+  }
+  .dataBox img{
+    height: 300px;
+    width: 300px;
+  }
+  .boxes{
+    flex-direction: column;
+    height: 190vh;
+  }
+  .about_box{
+    flex-direction: column;
+    height: 227vh;
+    text-align: center;
+  }
+  .D_box:nth-child(1) img{
+    height: 167px;
+    width: 155px;
+    margin-inline-start: 5px
+  }
+  .D_box:nth-child(2) img{
+    height: 130px;
+    width: 130px;
+    margin: -5px 34px 0px -53px
+  }
+  .D_box:nth-child(3) img{
+    height: 130px;
+    width: 130px;
+    margin :-97px 0px 0px -42px;
+  }
+  .D_box:nth-child(4) img{
+    height: 170px;
+    width: 170px;
+    margin: -95px 1px 0px -45px;
+  }
+  .D_box:nth-child(1){
+    height: 150px;
+    width: 150px;
+  }
+  .D_box:nth-child(2){
+    height: 150px;
+    width: 150px;
+  }
+  .D_box:nth-child(3){
+    height: 150px;
+    width: 150px;
+  }
+  .D_box:nth-child(4){
+    height: 150px;
+    width: 150px;
+  }
+  .design_box{
+    height: 508px;
+    width: 486px;
+  }
+  .the_about_boxes{
+    height: 450px;
+    width: 300px;
+  }
+  .the_about_boxes h2{
+    font-size: 32px;
+  }
+  .num{
+    flex-direction: column;
+    height: 400px;
+  }
+  .num_one{
+    margin-top: 15px;
+  }
+  .BigMenu{
+    flex-direction: column;
+  }
+  .girdSection{
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+  }
+  .DishMenu{
+    height: 203vh;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .item{
+    height: 130px;
+    width: 350px;
+  }
+  .item_menu{
+    height: 130px;
+    width: 350px;
+  }
+  .flexItem{
+    width: 220px;
+    justify-content: space-between;
+  }
+  /* chef sections  */
+  .chefSection{
+    margin-top: 500px;
+    height: 260vh;
+  }
+  .bookTable{
+    flex-direction: column;
+    margin-top: 750px;
+    justify-content: center;
+  }
+  .VID{
+    height: 260px;
+    width: 326px;
+    text-align: center;
+    margin-inline-start: 189px;
+  }
+  .form-container {
+    height: auto;
+    width: 300px;
+  }
+  .flexItem h1{
+    font-size: 16px;
+  }
+  .chef_box{
+    flex-direction: column;
+
+  }
+  .chefData{
+    margin-top: 50px;
+  }
+  .slide{
+    margin-top: 70px;
+  }
+}

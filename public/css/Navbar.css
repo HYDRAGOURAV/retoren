@@ -1,0 +1,82 @@
+  /* Navbar Styling */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+
+  .logo h1 {
+    color: rgb(254, 161, 22);
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347; /* Tomato color on hover */
+  }
+  
+  /* Mobile Menu Icon */
+  .mobile-menu-icon {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+      z-index: 1;
+    }
+  
+    .nav-links-mobile li {
+      margin: 10px 0;
+      list-style: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+    .nav-links-mobile a{
+      color: white;
+      text-decoration: none;
+  
+    }
+  }
+  
